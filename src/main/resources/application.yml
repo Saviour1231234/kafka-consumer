@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    consumer:
+      group-id: app.basket # The parameter is of type String and can be anything.
+    bootstrap-servers: localhost:9092
+#server:
+#  port : 8081
